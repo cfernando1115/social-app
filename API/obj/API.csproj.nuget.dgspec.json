@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Carmen\\Desktop\\SocialApp\\API\\API.csproj": {}
+    "C:\\Users\\Carmen\\Desktop\\SocialApp\\api\\API.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Carmen\\Desktop\\SocialApp\\API\\API.csproj": {
+    "C:\\Users\\Carmen\\Desktop\\SocialApp\\api\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Carmen\\Desktop\\SocialApp\\API\\API.csproj",
+        "projectUniqueName": "C:\\Users\\Carmen\\Desktop\\SocialApp\\api\\API.csproj",
         "projectName": "API",
-        "projectPath": "c:\\Users\\Carmen\\Desktop\\SocialApp\\API\\API.csproj",
+        "projectPath": "C:\\Users\\Carmen\\Desktop\\SocialApp\\api\\API.csproj",
         "packagesPath": "C:\\Users\\Carmen\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Carmen\\Desktop\\SocialApp\\API\\obj\\",
+        "outputPath": "C:\\Users\\Carmen\\Desktop\\SocialApp\\api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Carmen\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -54,7 +54,17 @@
                 "NU1605"
               ]
             },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
               "version": "[5.0.1, )"
             },
