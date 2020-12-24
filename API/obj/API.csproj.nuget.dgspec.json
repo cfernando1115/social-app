@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Carmen\\Desktop\\SocialApp\\api\\API.csproj": {}
+    "C:\\Users\\Carmen\\Desktop\\SocialApp\\API\\API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Carmen\\Desktop\\SocialApp\\api\\API.csproj": {
+    "C:\\Users\\Carmen\\Desktop\\SocialApp\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Carmen\\Desktop\\SocialApp\\api\\API.csproj",
+        "projectUniqueName": "C:\\Users\\Carmen\\Desktop\\SocialApp\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\Users\\Carmen\\Desktop\\SocialApp\\api\\API.csproj",
+        "projectPath": "C:\\Users\\Carmen\\Desktop\\SocialApp\\API\\API.csproj",
         "packagesPath": "C:\\Users\\Carmen\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Carmen\\Desktop\\SocialApp\\api\\obj\\",
+        "outputPath": "C:\\Users\\Carmen\\Desktop\\SocialApp\\API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Carmen\\AppData\\Roaming\\NuGet\\NuGet.Config",
