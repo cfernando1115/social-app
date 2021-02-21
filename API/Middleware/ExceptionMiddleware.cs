@@ -19,7 +19,7 @@ namespace API.Middleware
         {
             _next = next;
             _logger = logger;
-            _env = env;
+            _env = environment;
         }
 
         public async Task InvokeAsync(HttpContext context)
@@ -40,7 +40,7 @@ namespace API.Middleware
 
                 var options = new JsonSerializerOptions
                 {
-                    PropertyNamingPolicy = JSonNamingPolicy.CamelCase
+                    PropertyNamingPolicy = JsonNamingPolicy.CamelCase
                 };
 
                 var json = JsonSerializer.Serialize(response, options);
