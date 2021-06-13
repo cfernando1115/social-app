@@ -6,6 +6,7 @@ using AutoMapper;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using API.SignalR;
 
 namespace API.Extensions
 {
@@ -29,6 +30,8 @@ namespace API.Extensions
             services.AddScoped<IMessageRepository, MessageRepository>();
 
             services.AddScoped<LogUserActivity>();
+
+            services.AddSingleton<PresenceTracker>();
 
             services.AddAutoMapper(typeof(AutoMapperProfiles).Assembly);
 
