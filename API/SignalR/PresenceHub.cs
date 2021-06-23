@@ -24,7 +24,7 @@ namespace API.SignalR
                 await Clients.Others.SendAsync("UserIsOnline", Context.User.GetUsername());
             }
 
-            var currentUsers = _tracker.GetOnlineUsers();
+            var currentUsers = await _tracker.GetOnlineUsers();
             await Clients.Caller.SendAsync("GetOnlineUsers", currentUsers);
         }
 
